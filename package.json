@@ -1,7 +1,7 @@
 {
   "name": "shorturl",
-  "version": "0.0.2",
-  "description": "URL Shortener API project for freeCodeCamp",
+  "version": "0.0.1",
+  "description": "Shortener-Url-API-project",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,12 +9,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.5.9",
-    "mongoose": "^5.9.25",
+    "mongoose": "^5.9.26",
     "cors": "^2.8.5",
-    "body-parser": "^1.19.0"
-  },
-  "engines": {
-    "node": "10.17.0"
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0"
   },
   "repository": {
     "type": "git",
